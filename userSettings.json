@@ -1,0 +1,50 @@
+{
+    "editor.fontSize":  14,
+    "editor.fontFamily":  "Source Code Pro, Consolas, \u0027Courier New\u0027, monospace",
+    "editor.wordWrap":  "on",
+    "workbench.colorTheme":  "Monokai-Soft",
+    "workbench.iconTheme":  "seti",
+    "editor.rulers":  [
+                          80
+                      ],
+    "editor.renderLineHighlight":  "gutter",
+    "files.insertFinalNewline":  true,
+    "editor.lineHeight":  28,
+    "editor.mouseWheelScrollSensitivity":  3,
+    "files.autoSave":  "off",
+    "editor.tabSize":  4,
+    "workbench.statusBar.visible":  true,
+    "terminal.integrated.fontFamily":  "Source Code Pro",
+    "terminal.integrated.fontSize":  12,
+    "terminal.integrated.cursorStyle":  "line",
+    "window.zoomLevel":  0,
+    "workbench.sideBar.location":  "right",
+    "php.validate.enable":  true,
+    "php.validate.executablePath":  "c:\\xampp\\php\\php.exe",
+    "php.validate.run":  "onType",
+    "update.channel": "none",
+    "sublimeTextKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "editor.minimap.enabled": false,
+    "editor.smoothScrolling": true,
+    "search.exclude": {
+        "**/vendor": true
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "highlight-matching-tag.leftStyle": {
+        "borderWidth": "1px",
+        "borderStyle": "solid",
+        "borderColor": "white",
+        "borderRadius": "5px"
+    },
+    "highlight-matching-tag.rightStyle": {
+        "borderWidth": "1px",
+        "borderStyle": "solid",
+        "borderColor": "white",
+        "borderRadius": "5px"
+    }
+}
