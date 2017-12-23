@@ -39,6 +39,12 @@
     { "key": "alt+m",       "command": "cursorDownSelect",
                                      "when": "editorTextFocus" },
     { "key": "alt+n",         "command": "cursorUpSelect",
-                                     "when": "editorTextFocus" }
+                                     "when": "editorTextFocus" },
+    { "key": "ctrl+shift+a",        "command": "editor.action.smartSelect.grow",
+                                    "when": "editorTextFocus" },
+    { "key": "shift+alt+right",        "command": "-editor.action.smartSelect.grow",
+                                          "when": "editorTextFocus" },
+    { "key": "ctrl+up",              "command": "editor.emmet.action.incrementNumberByOneTenth" },
+    { "key": "ctrl+down",            "command": "editor.emmet.action.decrementNumberByOneTenth" }
 ]
 
