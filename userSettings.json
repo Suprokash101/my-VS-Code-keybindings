@@ -13,7 +13,6 @@
     "editor.mouseWheelScrollSensitivity":  3,
     "files.autoSave":  "off",
     "editor.tabSize":  4,
-    "workbench.statusBar.visible":  true,
     "terminal.integrated.fontFamily":  "Source Code Pro",
     "terminal.integrated.fontSize":  12,
     "terminal.integrated.cursorStyle":  "line",
@@ -46,5 +45,12 @@
         "borderStyle": "solid",
         "borderColor": "white",
         "borderRadius": "5px"
-    }
+    },
+    "workbench.colorCustomizations": {
+        //"statusBar.background": "#0D1011",
+        //"statusBar.foreground": "#6ab628f3",
+        "statusBar.noFolderBackground": "#0D1011",
+        "statusBar.noFolderForeground": "#6ab628f3"
+    },
+    "workbench.statusBar.feedback.visible": false    
 }
