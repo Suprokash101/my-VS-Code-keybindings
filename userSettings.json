@@ -1,9 +1,7 @@
 {
-    "editor.fontSize":  14,
-    "editor.fontFamily":  "Source Code Pro, Consolas, \u0027Courier New\u0027, monospace",
+    "editor.fontSize":  12,
+    "editor.fontFamily":  "Roboto Mono, Source Code Pro, Consolas, \u0027Courier New\u0027, monospace",
     "editor.wordWrap":  "on",
-    "workbench.colorTheme":  "Monokai-Soft",
-    "workbench.iconTheme":  "seti",
     "editor.rulers":  [
                           80
                       ],
@@ -13,44 +11,50 @@
     "editor.mouseWheelScrollSensitivity":  3,
     "files.autoSave":  "off",
     "editor.tabSize":  4,
-    "terminal.integrated.fontFamily":  "Source Code Pro",
+    "terminal.integrated.fontFamily":  "Roboto Mono",
     "terminal.integrated.fontSize":  12,
     "terminal.integrated.cursorStyle":  "line",
-    "window.zoomLevel":  0,
+    "window.zoomLevel": 0,
     "workbench.sideBar.location":  "right",
     "php.validate.enable":  true,
     "php.validate.executablePath":  "c:\\xampp\\php\\php.exe",
     "php.validate.run":  "onType",
-    "update.channel": "none",
-    "sublimeTextKeymap.promptV3Features": true,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.snippetSuggestions": "top",
-    "editor.formatOnPaste": true,
-    "editor.minimap.enabled": false,
-    "editor.smoothScrolling": true,
-    "search.exclude": {
-        "**/vendor": true
-    },
-    "editor.quickSuggestions": {
-        "strings": true
-    },
-    "highlight-matching-tag.leftStyle": {
-        "borderWidth": "1px",
-        "borderStyle": "solid",
-        "borderColor": "white",
-        "borderRadius": "5px"
-    },
-    "highlight-matching-tag.rightStyle": {
-        "borderWidth": "1px",
-        "borderStyle": "solid",
-        "borderColor": "white",
-        "borderRadius": "5px"
-    },
+    "php.suggest.basic": false,
+    "update.channel":  "none",
+    "sublimeTextKeymap.promptV3Features":  true,
+    "editor.multiCursorModifier":  "ctrlCmd",
+    "editor.snippetSuggestions":  "top",
+    "editor.formatOnPaste":  true,
+    "editor.minimap.enabled":  false,
+    "editor.smoothScrolling":  true,
+    "search.exclude":  {
+                           "**/vendor":  true
+                       },
+    "editor.quickSuggestions":  {
+                                    "strings":  true
+                                },
+    "highlight-matching-tag.leftStyle":  {
+                                             "borderWidth":  "1px",
+                                             "borderStyle":  "solid",
+                                             "borderColor":  "white",
+                                             "borderRadius":  "5px"
+                                         },
+    "highlight-matching-tag.rightStyle":  {
+                                              "borderWidth":  "1px",
+                                              "borderStyle":  "solid",
+                                              "borderColor":  "white",
+                                              "borderRadius":  "5px"
+                                          },
     "workbench.colorCustomizations": {
         //"statusBar.background": "#0D1011",
         //"statusBar.foreground": "#6ab628f3",
         "statusBar.noFolderBackground": "#0D1011",
-        "statusBar.noFolderForeground": "#6ab628f3"
+        "statusBar.noFolderForeground": "#6ab628f3",
+        "editorCursor.foreground": "#ff87c3"
     },
-    "workbench.statusBar.feedback.visible": false    
+    "workbench.statusBar.feedback.visible": false,
+    "editor.cursorWidth": 2,
+    "editor.cursorBlinking": "solid",
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.activityBar.visible": true
 }
