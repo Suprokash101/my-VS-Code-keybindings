@@ -1,3 +1,14 @@
+// Installed extensions:
+// Atom One Dark Syntax Theme (andischerer.theme-atom-one-dark)
+// Beautify (HookyQR.beautify)
+// ESLint (dbaeumer.vscode-eslint)
+// highlight-matching-tag (vincaslt.highlight-matching-tag)
+// Nord (arcticicestudio.nord-visual-studio-code)
+// PHP IntelliSense (felixfbecker.php-intellisense)
+// Sublime Text Keymap and Settings Importer (ms-vscode.sublime-keybindings)
+
+----------------------------------------------------------------------------
+
 // Place your key bindings in this file to overwrite the defaults
 [
     { "key": "alt+v",                  "command": "cursorDown",
@@ -39,12 +50,24 @@
     { "key": "alt+m",       "command": "cursorDownSelect",
                                      "when": "editorTextFocus" },
     { "key": "alt+n",         "command": "cursorUpSelect",
-                                     "when": "editorTextFocus" },
-    { "key": "ctrl+shift+a",        "command": "editor.action.smartSelect.grow",
-                                    "when": "editorTextFocus" },
-    { "key": "shift+alt+right",        "command": "-editor.action.smartSelect.grow",
-                                          "when": "editorTextFocus" },
-    { "key": "ctrl+up",              "command": "editor.emmet.action.incrementNumberByOneTenth" },
-    { "key": "ctrl+down",            "command": "editor.emmet.action.decrementNumberByOneTenth" }
-]
-
+                                    "when": "editorTextFocus"
+                                },
+                                {
+                                    "key": "ctrl+shift+a",
+                                    "command": "editor.action.smartSelect.grow",
+                                    "when": "editorTextFocus"
+                                },
+                                {
+                                    "key": "shift+alt+right",
+                                    "command": "-editor.action.smartSelect.grow",
+                                    "when": "editorTextFocus"
+                                },
+                                {
+                                    "key": "ctrl+up",
+                                    "command": "editor.emmet.action.incrementNumberByOneTenth"
+                                },
+                                {
+                                    "key": "ctrl+down",
+                                    "command": "editor.emmet.action.decrementNumberByOneTenth"
+                                }
+                            ]
