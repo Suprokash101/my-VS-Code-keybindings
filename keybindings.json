@@ -6,6 +6,7 @@
 // Nord (arcticicestudio.nord-visual-studio-code)
 // PHP IntelliSense (felixfbecker.php-intellisense)
 // Sublime Text Keymap and Settings Importer (ms-vscode.sublime-keybindings)
+// WordCounter (kirozen.wordcounter)
 
 ----------------------------------------------------------------------------
 
@@ -69,5 +70,15 @@
                                 {
                                     "key": "ctrl+down",
                                     "command": "editor.emmet.action.decrementNumberByOneTenth"
+                                },
+                                {
+                                    "key": "alt+v",
+                                    "command": "selectNextSuggestion",
+                                    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+                                },
+                                {
+                                    "key": "alt+e",
+                                    "command": "selectPrevSuggestion",
+                                    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
                                 }
                             ]
